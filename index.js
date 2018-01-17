@@ -1,5 +1,10 @@
-const Observable = require('rxjs/Observable')
+import { Observable } from 'rxjs/Observable'
+import 'rxjs/add/observable/fromEvent'
+import 'rxjs/add/operator/scan'
+import 'rxjs/add/operator/filter'
+
 const $$ = selector => Array.prototype.slice.call(document.querySelectorAll(selector))
+
 const product = (callback, array1, array2) => (
 	array1.reduce((prev, data1) => (
 		prev.concat(array2.map(data2 => callback(data1, data2)))
@@ -21,7 +26,7 @@ class SwitchWitch {
 	}
 }
 
-module.exports = {
+export default {
 	SwitchWitch,
 	switchImages: isMobile => {
 		const suffixes = [ '_pc', '_sp' ]
