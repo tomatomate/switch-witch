@@ -1,0 +1,25 @@
+{
+  "name": "switch-witch",
+  "version": "1.0.0",
+  "description": "A JavaScript library for responsive web design.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomatomate/switch-witch.git"
+  },
+  "keywords": [
+    "switch-witch"
+  ],
+  "author": "tomatomate",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomatomate/switch-witch/issues"
+  },
+  "homepage": "https://github.com/tomatomate/switch-witch#readme",
+  "dependencies": {
+    "rxjs": "^5.5.6"
+  }
+}
