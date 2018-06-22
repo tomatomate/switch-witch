@@ -1,0 +1,39 @@
+{
+  "env": {
+    "node": true,
+    "es6": true,
+    "jest/globals": true
+  },
+  "globals": {
+    "document": true,
+    "window": true,
+    "$": true
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "plugins": [
+    "flowtype",
+    "react",
+    "fp",
+    "jest"
+  ],
+  "rules": {
+    "flowtype/define-flow-type": 1,
+    "flowtype/use-flow-type": 1,
+    "react/jsx-uses-vars": 1,
+    "semi": 0,
+    "no-undef": 2,
+    "comma-spacing": 1,
+    "no-mixed-spaces-and-tabs": 2,
+    "no-unused-vars": [ 1, { "argsIgnorePattern": "^_" } ],
+    "keyword-spacing": 1,
+    "eqeqeq": 1,
+    "space-infix-ops": 1,
+    "no-multiple-empty-lines": 1
+  }
+}
