@@ -1,8 +1,8 @@
 {
   "name": "switch-witch",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A JavaScript library for responsive web design.",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "test": "jest"
   },
